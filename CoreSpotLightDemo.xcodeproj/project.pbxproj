@@ -14,6 +14,9 @@
 		29DA18092140DE6700FA258A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29DA18072140DE6700FA258A /* LaunchScreen.storyboard */; };
 		29DA18142140DE6700FA258A /* CoreSpotLightDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA18132140DE6700FA258A /* CoreSpotLightDemoTests.swift */; };
 		29DA181F2140DE6800FA258A /* CoreSpotLightDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA181E2140DE6800FA258A /* CoreSpotLightDemoUITests.swift */; };
+		29DA182D2140DFDE00FA258A /* cardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA182C2140DFDD00FA258A /* cardView.swift */; };
+		29DA182F2140E0D200FA258A /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA182E2140E0D200FA258A /* DemoCell.swift */; };
+		29DA18312140E2AF00FA258A /* ShowDescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29DA18302140E2AF00FA258A /* ShowDescriptionVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		29DA181A2140DE6700FA258A /* CoreSpotLightDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreSpotLightDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		29DA181E2140DE6800FA258A /* CoreSpotLightDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreSpotLightDemoUITests.swift; sourceTree = "<group>"; };
 		29DA18202140DE6800FA258A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29DA182C2140DFDD00FA258A /* cardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cardView.swift; sourceTree = "<group>"; };
+		29DA182E2140E0D200FA258A /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		29DA18302140E2AF00FA258A /* ShowDescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDescriptionVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				29DA17FE2140DE6100FA258A /* AppDelegate.swift */,
 				29DA18002140DE6100FA258A /* ViewController.swift */,
+				29DA182C2140DFDD00FA258A /* cardView.swift */,
 				29DA18022140DE6100FA258A /* Main.storyboard */,
 				29DA18052140DE6700FA258A /* Assets.xcassets */,
 				29DA18072140DE6700FA258A /* LaunchScreen.storyboard */,
 				29DA180A2140DE6700FA258A /* Info.plist */,
+				29DA182E2140E0D200FA258A /* DemoCell.swift */,
+				29DA18302140E2AF00FA258A /* ShowDescriptionVC.swift */,
 			);
 			path = CoreSpotLightDemo;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29DA182D2140DFDE00FA258A /* cardView.swift in Sources */,
+				29DA18312140E2AF00FA258A /* ShowDescriptionVC.swift in Sources */,
 				29DA18012140DE6100FA258A /* ViewController.swift in Sources */,
+				29DA182F2140E0D200FA258A /* DemoCell.swift in Sources */,
 				29DA17FF2140DE6100FA258A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
